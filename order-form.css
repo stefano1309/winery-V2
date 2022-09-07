@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+body{
+  font-size: 10px;
+  font-family: Roboto, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 30px;
+}
+
+p{
+  font-size: 15px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+}
+
+input,
+select,
+textarea {
+  padding: 1rem;
+  background: transparent;
+  border: 1px solid black;
+}
+
+.message{
+  height: 3rem;
+}
+
+button{
+  width: 8rem;
+  padding: 1.4rem;
+  cursor: pointer;
+  background-color: rgb(23, 22, 21);
+  color: white;
+}
+
+a{
+  position: absolute;
+  width: 5rem;
+  padding: 1.4rem;
+  cursor: pointer;
+  background-color: rgb(23, 22, 21);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: -60px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.back{
+  height: 100px;
+}
+
+.send{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+@media (max-width: 750px){
+  form{
+    width: 12rem;
+  }
+  button{
+    width: 4rem;
+    padding: 1rem;
+  }
+  a{
+    margin-top: -49px;
+    margin-left: 90px;
+    width: 2rem;
+    padding: 1rem;
+  }
+}

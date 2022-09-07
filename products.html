@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="products.css">
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <script src="js/script.js" defer></script>
+  <title>Melnik Pyramids</title>
+</head>
+<body>
+
+    <!--header-->
+<header class="header">
+  <nav>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Wine</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <i class='bx bxs-cart-alt' id="cart-icon"></i> </nav>
+    </ul>
+</header>
+  <!--end of header-->
+
+  <!--Section 2 PRODUCTS-->
+    <div class="container">
+      <div class="cart">
+
+        <h2 class="cart-title">Your Cart</h2>
+
+        <div class="cart-content">
+
+          <div class="cart-box">
+            <img src="./images/Cabarnet.jpg" width="80" height="130" alt="cart-image">
+            <div class="detail-box">
+
+              <div class="cart-product-title">Cabarnet</div>
+              <div class="cart-price">25 lv</div>
+              <input type="number" value="1" class="cart-quantity">
+
+            </div>
+            <i class='bx bxs-trash-alt cart-remove'></i>
+          </div>
+        </div>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">0 lv</div>
+        </div>
+        <button type="button" class="btn-buy">Buy Now</button>
+        <i class='bx bx-x' id="close-cart" ></i>
+
+      </div>
+      
+      <h3 class="title">Wine Selection</h3>
+      <div class="promo-button">
+        <a href="./documents/current_offers.pdf" type="button" target="_blank" class="cta">Current Promotion</a>
+      </div>
+      <div class="products-container">
+
+        <div class="product" data-name="p-1">
+          <img src="./images/1300.jpg" width = "337.5" height = "450" alt="">
+          <h3>Melnik 1300</h3>
+          <div class="price">10 lv</div>
+        </div>
+        <div class="product" data-name="p-2">
+          <img src="./images/Melnik55.jpg" width = "337.5" height = "450" alt="">
+          <h3>Melnik 55</h3>
+          <div class="price">10 lv</div>
+        </div>
+        <div class="product" data-name="p-3">
+          <img src="./images/Cabarnet.jpg" width = "337.5" height = "450" alt="">
+          <h3>Cabarnet</h3>
+          <div class="price">10 lv</div>
+        </div>
+        <div class="product" data-name="p-4">
+          <img src="./images/Merlot.jpg" width = "337.5" height = "450" alt="">
+          <h3>Merlot</h3>
+          <div class="price">10 lv</div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="products-preview">
+
+      <div class="preview" data-target="p-1">
+        <i class="fas fa-times"></i>
+        <img src="./images/1300.jpg" width = "337.5" height = "450" alt="">
+        <h3>Melnik 1300</h3>
+        <p class="wine-description">                 
+          <b>Variety:</b> Melnishki Rubin, Melnik 55, Cabernet Sauvignon
+          <br><b>Qualitative category:</b> Protected Geographical Indication
+          <br> <b>Region:</b> Petrich
+          <br> <b>Type:</b> Red
+          <br><b>Color:</b> Ruby with soft flashes
+          <br><b>Fragrance:</b> Saturated with emphasis on black berries and spices
+          <br><b>Taste:</b> Good balance and a warm warmth finish
+          <br><b>Alcohol:</b> 13% vol
+          <br><b>Volume:</b> 750 ml</p>
+        <div class="price">10 lv</div>
+        <div class="buttons">
+          <a href="#" class="buy">buy now</a>
+          <a href="#" class="cart">add to cart</a>
+        </div>
+      </div>
+
+      <div class="preview" data-target="p-2">
+        <i class="fas fa-times"></i>
+        <img src="./images/Melnik55.jpg" width = "337.5" height = "450" alt="">
+        <h3>Melnik 55</h3>
+        <p class="wine-description">                 
+          <b>Variety:</b> Melnishki Rubin, Melnik 55, Cabernet Sauvignon
+          <br><b>Qualitative category:</b> Protected Geographical Indication
+          <br> <b>Region:</b> Petrich
+          <br> <b>Type:</b> Red
+          <br><b>Color:</b> Ruby with soft flashes
+          <br><b>Fragrance:</b> Saturated with emphasis on black berries and spices
+          <br><b>Taste:</b> Good balance and a warm warmth finish
+          <br><b>Alcohol:</b> 13% vol
+          <br><b>Volume:</b> 750 ml</p>
+        <div class="price">10 lv</div>
+        <div class="buttons">
+          <a href="#" class="buy">buy now</a>
+          <a href="#" class="cart">add to cart</a>
+        </div>
+      </div>
+
+      <div class="preview" data-target="p-3">
+        <i class="fas fa-times"></i>
+        <img src="./images/Cabarnet.jpg" width = "337.5" height = "450" alt="">
+        <h3>Cabarnet</h3>
+        <p class="wine-description">                 
+          <b>Variety:</b> Melnishki Rubin, Melnik 55, Cabernet Sauvignon
+          <br><b>Qualitative category:</b> Protected Geographical Indication
+          <br> <b>Region:</b> Petrich
+          <br> <b>Type:</b> Red
+          <br><b>Color:</b> Ruby with soft flashes
+          <br><b>Fragrance:</b> Saturated with emphasis on black berries and spices
+          <br><b>Taste:</b> Good balance and a warm warmth finish
+          <br><b>Alcohol:</b> 13% vol
+          <br><b>Volume:</b> 750 ml</p>
+        <div class="price">10 lv</div>
+        <div class="buttons">
+          <a href="#" class="buy">buy now</a>
+          <a href="#" class="cart">add to cart</a>
+        </div>
+      </div>
+
+      <div class="preview" data-target="p-4">
+        <i class="fas fa-times"></i>
+        <img src="./images/Merlot.jpg" width = "337.5" height = "450" alt="">
+        <h3>Merlot</h3>
+        <p class="wine-description">                 
+          <b>Variety:</b> Melnishki Rubin, Melnik 55, Cabernet Sauvignon
+          <br><b>Qualitative category:</b> Protected Geographical Indication
+          <br> <b>Region:</b> Petrich
+          <br> <b>Type:</b> Red
+          <br><b>Color:</b> Ruby with soft flashes
+          <br><b>Fragrance:</b> Saturated with emphasis on black berries and spices
+          <br><b>Taste:</b> Good balance and a warm warmth finish
+          <br><b>Alcohol:</b> 13% vol
+          <br><b>Volume:</b> 750 ml</p>
+        <div class="price">10 lv</div>
+        <div class="buttons">
+          <a href="#" class="buy">buy now</a>
+          <a href="#" class="cart">add to cart</a>
+        </div>
+      </div>
+
+    </div>
+    
+    <script src="js/cart.js"></script>
+    
+
+</body>
+</html>
