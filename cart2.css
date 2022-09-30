@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.header{
+  padding: 0;
+  margin-top: -20px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html{
+  font-size: 10px;
+  font-family: Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+body{
+  background: #eee;
+}
+
+/* header */
+li, a, .button-header {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .header{
+    display: flex;
+    position: -webkit-sticky;
+    top: 0;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(239, 239, 215, 0.95);
+    z-index:99;
+    height: 60px;
+  }
+  
+  .nav__links{
+    list-style: none;
+  }
+  
+  .nav__links li{
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  .nav__links li a{
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover{
+    color: rgb(184, 184, 184);
+  }
+  
+/* end of header */
+
+/* CART PAGE */
+.products-container2 ion-icon {
+  font-size: 25px;
+  color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-header{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  border-bottom: 4px solid lightgray;
+  margin: 0  auto;
+ }
+
+.price{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  }
+
+.quantity{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  }
+
+.total{
+  margin-left: 50px;
+  }
+  
+.products{
+  display: flex;
+  flex-direction: column;
+}
+.product-cart{
+  display: flex;
+  vertical-align: center;
+  
+}
+.product{
+  display: flex;
+  align-items: center;
+}
+.item-price{
+  padding-left: 180px;
+ }
+
+ .item-name{
+  width: 150px;
+ }
+
+ .item-quantity{
+  padding-left: 330px;
+ }
+
+ .item-total{
+  padding-left: 440px;
+ }
+
+ .basketTotalContainer{
+    display: flex;  
+    justify-content: right;
+    padding-right: 100px;
+}
+
+  

@@ -200,14 +200,14 @@ li, a, .button-header {
   color: #27ae60;
 }
 
-.products-preview .preview .buttons {
-  display: flex;
+.products-preview .preview a.buy {
+  display: inline-flex;
   gap: 1.5rem;
   flex-wrap: wrap;
   margin-top: 1rem;
 }
 
-.products-preview .preview .buttons a{
+.products-preview .preview a.buy{
   flex: 1 1 16rem;
   padding: 1rem;
   font-size: 1.8rem;
@@ -215,17 +215,7 @@ li, a, .button-header {
   border: .1rem solid #444;
 }
 
-.products-preview .preview .buttons a.cart{
-  background-color: #444;
-  color: #fff;
-}
-
-.products-preview .preview .buttons a.cart:hover{
-  background-color: #111;
-  color: #fff;
-}
-
-.products-preview .preview .buttons a.buy:hover{
+.products-preview .preview a.buy:hover{
   background-color: #444;
   color: #fff;
 }
