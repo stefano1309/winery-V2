@@ -131,7 +131,8 @@ li, a, .button-header {
 }
 
 .container .products-container .product:hover h3{
-  color: #27ae60;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .container .products-container .product .price{
@@ -168,6 +169,8 @@ li, a, .button-header {
 
 .wine-description{
   text-align: left;
+  font-size: 1.5rem;
+
 }
 
 .products-preview .preview.active{
@@ -194,6 +197,7 @@ li, a, .button-header {
   font-size: 2.5rem;
 }
 
+ /*
 .products-preview .preview .price {
   padding: 1rem 0;
   font-size: 2.5rem;
@@ -206,6 +210,7 @@ li, a, .button-header {
   flex-wrap: wrap;
   margin-top: 1rem;
 }
+*/
 
 .products-preview .preview a.buy{
   flex: 1 1 16rem;
@@ -218,6 +223,13 @@ li, a, .button-header {
 .products-preview .preview a.buy:hover{
   background-color: #444;
   color: #fff;
+}
+
+.order{
+  display : flex;
+  align-items: center;
+  font-size: 2.2rem;
+  padding-bottom: 10px;
 }
 
 @media (max-width:991px){
